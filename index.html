@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="./src/imagens/Fantasminha.png" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css">
+
+		<link rel="stylesheet" href="./src/css/estilos.css">
+
+		<link rel="stylesheet" href="./src/css/responsivo.css">
+
+		<title> Pac Man </title>
+	</head>
+
+	<body>
+
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/Homenagem aos 35 anos do Pac-Man  Pixels  23 de julho nos cinemas.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/imagens/logo2.png" alt="Logo Pac-Man" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="https://youtu.be/NhG-RYpNlBM"> Filme </a></li>
+					<li><a href="https://www.jogos360.com.br/pac_man.html"> Jogo </a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/imagens/Titulo2.png" alt="Imagem do título" />
+				<p class="descricao">Pac-Man é um jogo eletrônico criado por Tōru Iwatani para a empresa Namco, e sendo distribuído para o mercado americano pela Midway Games. Produzido originalmente para Arcade no início dos anos 1980, tornou-se um dos jogos mais jogados e populares no momento, tendo versões modernas para diversos consoles e continuações para tantos outros, inclusive na atualidade.
+                </p>
+				<button class="botao-trailer">Veja o trailer</button>
+			</div>
+			<img class="Pac-Man" src="./src/imagens/pcmen.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video" width="560" height="315" src="./src/video/Homenagem aos 35 anos do Pac-Man  Pixels  23 de julho nos cinemas.mp4" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
